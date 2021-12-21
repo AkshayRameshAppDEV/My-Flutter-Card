@@ -21,10 +21,16 @@ class FlutterCard extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20)),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const <Widget>[
-                    Text("Akshay Ramesh", style: TextStyle(fontSize: 30)),
-                    Text("akshayramesh@flutter.com",style: TextStyle(fontSize: 20)),
-                    Text("MyText", style: TextStyle(fontSize: 20))
+                  children:  <Widget>[
+                    const Text("Akshay Ramesh", style: TextStyle(fontSize: 30, color: Colors.white)),
+                    const Text("akshayramesh@appdev.com",style: TextStyle(fontSize: 15)),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: const [
+                        Icon(Icons.person),
+                        Text("@AkshayRameshAppDEV", style: TextStyle(fontSize: 15))
+                      ],
+                    )
                 ],
               )
             )
