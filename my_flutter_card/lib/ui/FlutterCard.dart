@@ -40,15 +40,15 @@ class FlutterCard extends StatelessWidget {
                 ],
               )),
           Positioned(
-            bottom: 130,
-            child: Container(
-                width: 100,
-                height: 100,
-                margin: const EdgeInsets.all(50.0),
-                decoration: BoxDecoration(
-                    color: Colors.black,
-                    borderRadius: BorderRadius.circular(20))),
-          )
+              bottom: 130,
+              child: Container(
+                  width: 100,
+                  height: 100,
+                  margin: const EdgeInsets.all(50.0),
+                  decoration: BoxDecoration(
+                      image: const DecorationImage(
+                          image: NetworkImage("https://picsum.photos/200")),
+                      borderRadius: BorderRadius.circular(20))))
         ],
       )),
     ));
