@@ -10,6 +10,7 @@ class FlutterCard  extends StatelessWidget {
         appBar: AppBar(
           title: const Text("My Flutter Card"),
           centerTitle: false,
+          backgroundColor: Colors.redAccent,
         ),
       ),
     );
